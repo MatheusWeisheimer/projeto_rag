@@ -1,0 +1,34 @@
+### Maven / Java ###
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+### Quarkus ###
+.quarkus/
+
+### Environment / secrets ###
+.env
+.env.*
+!.env.example
+
+### IDE ###
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+nbproject/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Claude Code local settings ###
+.claude/settings.local.json
+
+### Logs ###
+*.log
